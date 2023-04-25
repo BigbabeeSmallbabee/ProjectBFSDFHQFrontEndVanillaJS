@@ -33,7 +33,7 @@
 <body>
 
     <div class="container-fluid text-center">
-        <h1 id="maintitle">Consume hellojson from bfsdfbackendapril4th2023.vercel.app</h1>
+        <h1 class="main-title" id="maintitle">Consume hellojson from bfsdfbackendapril4th2023.vercel.app</h1>
 
 
         <hr>
@@ -45,34 +45,39 @@
         </div>
         <!-- input box for integer -->
         <div>
-        <input type="number" id="inputNumbereveryweektutor" placeholder="everyweektutor hours">
-        <input type="number" id="inputNumbereveryweekpractice" placeholder="everyweekpractice hours">
+        <input type="number" class="me" id="inputNumbereveryweektutor" placeholder="everyweektutor hours">
+        <input type="number" class="me" id="inputNumbereveryweekpractice" placeholder="everyweekpractice hours">
         </div>
         <div>
-        <button type="button" class="btn btn-primary" onclick="loadreturnestimate()">
-            load return estimate
+        <button type="button" class="btn btn-light " onclick="loadreturnestimate()">
+            Load Return Estimate
         </button> 
         <button type="button" class="btn btn-primary" onclick="resetinputNumbereveryweektutor()">
-            reset input
+            Reset Input
         </button>
         </div>
-        <hr>    
+          
         <div>
-            <button type="button" class="btn btn-primary" onclick="loadNASAData()">
-                test if API is running
+            <button type="button" class="btn btn-secondary" onclick="loadNASAData()">
+                Test If API Is Running
             </button>
         </div>  
-        <hr>     
-        <div>
-            <p id="explanation">EXPLANATION WILL COME HERE</p>
+        <hr class="hr">     
+        <div class="group">
+            <marquee class="explanation">
+                <p  id="explanation">EXPLANATION WILL COME HERE</p>
+            </marquee>
         </div>     
-        <hr>
+        
         <div class="container-fluid text-center">
             <p>
                 Project maintained by  <a href="https://github.com/orgs/BigbabeeSmallbabee">BigbabeeSmallbabee</a>
             </p>
             <p>
                 Primary Developer <a href="https://github.com/Jay-study-nildana">Jay (Vijayasimha BR) Coding Tutor</a>
+            </p>
+            <p>
+                Secondary Developer <a href="https://github.com/Vijay263601">Vijay Singh Majila (Developer)</a>
             </p>
             <p>I am hobbyist photographer. many of the images used in this app are taken by me.
             </p>
@@ -85,7 +90,6 @@
             <h2 id="title">TITLE WILL COME HERE</h2>
             <img src="https://sandkdesignstudioin.files.wordpress.com/2022/10/showcaseoneoctober13thwatermarkseta.jpg"
                 class="img-fluid" alt="..." id="image">
-            <p id="date">DATE WILL COME HERE</p>
             
         </div>
         <!-- jernej-graj-MdTe1mXvNMg-unsplash -->

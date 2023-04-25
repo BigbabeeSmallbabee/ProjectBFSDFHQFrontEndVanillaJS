@@ -10,8 +10,8 @@ window.onload = loadDefaults();
 
 function loadDefaults() {
     console.log("loadDefaults reached");
-    let maintitletext = "Estimate how long it takes to become developer";
-    let headerstring = "Ideal recommendations";
+    let maintitletext = "Estimate How Long It Takes To Become Developer";
+    let headerstring = "Ideal Recommendations";
     let idealnumberofhours = 4;
     let idealnumberofhourspractice = 12;
     //string with idealnumberofhours and idealnumberofhourspractice
@@ -28,11 +28,11 @@ function loadDefaults() {
 
     //get explanation 
     let explanation = document.getElementById("explanation");
-    explanation.innerHTML = "estimation will come here";
+    explanation.innerHTML = "Estimation Will Come Here";
 
     //get title with id
     let title = document.getElementById("title");
-    title.innerHTML = "other info will come here";
+    title.innerHTML = "Other Info Will Come Here";
 
     //get image with id
     let image = document.getElementById("image");
