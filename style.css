@@ -1,5 +1,8 @@
 * {
     background-color: aliceblue;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 .main-title{
@@ -53,5 +56,22 @@
     font-size: 30px;
     font-family: 'Castoro Titling', cursive;
     background-color: rgb(220, 244, 236);
-    
+}
+.contributors-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+.contributors{
+    margin: 2px;
+    padding: 2px;
+    height: 20pxs;
 }
