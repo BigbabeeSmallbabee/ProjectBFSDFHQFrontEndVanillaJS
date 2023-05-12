@@ -12,6 +12,7 @@ function loadDefaults() {
     console.log("loadDefaults reached");
     let maintitletext = "Estimate How Long It Takes To Become Developer";
     let headerstring = "Ideal Recommendations";
+    let defaultAPIHealthChecktext = "API Health check status comes here.";
     let idealnumberofhours = 4;
     let idealnumberofhourspractice = 12;
     //string with idealnumberofhours and idealnumberofhourspractice
@@ -37,13 +38,16 @@ function loadDefaults() {
     //get image with id
     let image = document.getElementById("image");
     image.src = "https://sandkdesignstudioin.files.wordpress.com/2022/10/showcaseoneoctober13thwatermarkseta.jpg";
+
+    let date = document.getElementById("date");
+    date.innerHTML = defaultAPIHealthChecktext;
 }
 
 //loadNASAData()
 
-function loadNASAData() {
+function APIHealthCheck() {
 
-    console.log("loadNASAData hellojson");
+    console.log("APIHealthCheck hellojson");
 
     //before we call, show a loading image
 
